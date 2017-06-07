@@ -547,28 +547,57 @@ html, body {
 .footer {
   max-width: 90%;
   min-width: 500px;
-  height: 1150px;
+  height: 600px;
   margin: 0 auto;
   background: #1b2a2c;
   color: white; }
   /* line 566, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
-  .footer .rightBlock {
+  .footer .leftBlock {
+    float: left;
     min-width: 240px;
     max-width: 50%;
     height: 100%;
     border: 1px solid red; }
-    /* line 572, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
-    .footer .rightBlock p:nth-of-type(1) {
+    /* line 573, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .leftBlock p:nth-of-type(1) {
       font-size: 2.5rem;
       margin-left: 2%;
       color: white;
       text-transform: uppercase; }
-    /* line 579, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
-    .footer .rightBlock p {
+    /* line 580, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .leftBlock p {
       margin-left: 2%;
       color: #929292;
       font-size: 1.2rem; }
-    /* line 586, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
-    .footer .rightBlock span {
+    /* line 587, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .leftBlock span {
       color: white;
       margin-right: 2%; }
+  /* line 593, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  .footer .rightBlock {
+    float: right;
+    min-width: 240px;
+    width: 49%;
+    height: 100%;
+    border: 1px solid red; }
+    /* line 600, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .rightBlock form {
+      margin: 14% 2%; }
+      /* line 603, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+      .footer .rightBlock form p {
+        font-size: 1.5rem; }
+    /* line 608, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .rightBlock input {
+      width: 80%;
+      height: 5%;
+      border: 1px solid green;
+      color: white;
+      background: #4a5455; }
+    /* line 616, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .rightBlock button {
+      margin-top: 5%;
+      width: 20%;
+      height: 6%;
+      -webkit-border-radius: 12px;
+      -moz-border-radius: 12px;
+      border-radius: 12px; }
