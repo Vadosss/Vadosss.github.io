@@ -540,8 +540,12 @@ html, body {
       width: 365px;
       height: 300px;
       margin: 1%;
-      border: 1px solid black; }
-    /* line 559, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+      border: 1px solid black;
+      background-image: url(../files/img/portfolio.jpg);
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%; }
+    /* line 561, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .portfolio .myWork div:nth-of-type(1) {
       background-image: url(../files/img/polik.png);
       background-repeat: no-repeat;
@@ -549,13 +553,13 @@ html, body {
       -moz-background-size: 100% 90%;
       -o-background-size: 100% 90%;
       background-size: 100% 90%; }
-    /* line 569, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 571, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .portfolio .myWork img {
       width: 365px;
       height: 300px;
       margin: 1%; }
 
-/* line 577, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 579, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .footer {
   max-width: 90%;
   min-width: 500px;
@@ -563,49 +567,49 @@ html, body {
   margin: 0 auto;
   background: #1b2a2c;
   color: white; }
-  /* line 586, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 588, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .footer .leftBlock {
     float: left;
     min-width: 240px;
     max-width: 50%;
     height: 100%;
     border: 1px solid red; }
-    /* line 593, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 595, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .leftBlock p:nth-of-type(1) {
       font-size: 2.5rem;
       margin-left: 2%;
       color: white;
       text-transform: uppercase; }
-    /* line 600, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 602, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .leftBlock p {
       margin-left: 2%;
       color: #929292;
       font-size: 1.2rem; }
-    /* line 607, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 609, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .leftBlock span {
       color: white;
       margin-right: 2%; }
-  /* line 613, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 615, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .footer .rightBlock {
     float: right;
     min-width: 240px;
     width: 49%;
     height: 100%;
     border: 1px solid red; }
-    /* line 620, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 622, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock form {
       margin: 14% 2%; }
-      /* line 623, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+      /* line 625, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
       .footer .rightBlock form p {
         font-size: 1.5rem; }
-    /* line 628, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 630, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock input {
       width: 80%;
       height: 5%;
       border: 1px solid green;
       color: white;
       background: #4a5455; }
-    /* line 636, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 638, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock button {
       margin-top: 5%;
       width: 20%;
@@ -613,7 +617,8 @@ html, body {
       -webkit-border-radius: 12px;
       -moz-border-radius: 12px;
       border-radius: 12px; }
-    /* line 642, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 644, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock textarea {
       background: #4a5455;
-      color: white; }
+      color: white;
+      max-width: 250px; }
