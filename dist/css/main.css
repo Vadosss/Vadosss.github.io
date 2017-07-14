@@ -144,7 +144,7 @@ html, body {
       min-width: 150px;
       min-height: 500px;
       /*height: 100%;*/
-      background-image: url(../files/img/333.jpg);
+      background-image: url(../files/img/Businessman.jpg);
       background-repeat: no-repeat;
       background-position: top center;
       -moz-background-size: 120%;
@@ -180,16 +180,17 @@ html, body {
     height: auto;
     /*border: 1px solid black;*/
     padding: 0.5%;
+    margin-left: 5%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    /* line 174, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 175, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils img {
       float: left;
       margin: 10% 0 0 2%;
       width: 32px;
       height: 32px; }
-    /* line 181, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 182, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils p {
       min-width: 150px;
       width: 80%;
@@ -197,7 +198,7 @@ html, body {
       float: right;
       display: inline-block;
       color: #929292; }
-    /* line 190, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 191, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils h4 {
       float: right;
       width: 20%;
@@ -205,28 +206,28 @@ html, body {
       color: #4f6366;
       text-align: center;
       text-transform: uppercase; }
-    /* line 199, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 200, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils .myskils1 {
       display: inline-block;
       width: 50%;
       height: auto; }
-    /* line 205, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 206, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils .myskils2 {
       display: inline-block;
       width: 50%;
       height: auto; }
-    /* line 211, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 212, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils .myskils3 {
       display: inline-block;
       width: 50%;
       height: auto; }
-    /* line 218, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 219, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     #wrapper .mySkils .myskils4 {
       display: inline-block;
       width: 50%;
       height: auto; }
 
-/* line 226, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 227, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .blockSkills {
   max-width: 90%;
   min-width: 500px;
@@ -235,7 +236,7 @@ html, body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 235, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 236, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .blockSkills .leftBlockSkills {
     width: 49%;
     min-width: 240px;
@@ -247,20 +248,20 @@ html, body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    /* line 246, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 247, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .leftBlockSkills h4 {
       margin-bottom: 10%;
       text-align: center;
       text-transform: uppercase;
       color: #4f6366;
       font-size: 1.8rem; }
-    /* line 254, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 255, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .leftBlockSkills p:nth-of-type(1) {
       color: #929292;
       margin: 1%;
       width: 80%;
       margin: 0 auto; }
-    /* line 261, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 262, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .leftBlockSkills p:nth-of-type(2) {
       font-weight: bold;
       text-align: center;
@@ -270,7 +271,7 @@ html, body {
       padding: 1.5%;
       width: 25%;
       border: 0.1rem solid #00cd6b; }
-  /* line 275, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 276, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .blockSkills .rightBlockSkills {
     width: 49%;
     min-width: 240px;
@@ -281,26 +282,44 @@ html, body {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    /* line 285, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 286, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .rightBlockSkills p {
       display: inline-block;
       margin: 1.5%;
       text-transform: uppercase;
       color: #4f6366;
       font-weight: bold; }
-    /* line 293, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 294, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .rightBlockSkills .progress {
       width: 90%;
       height: 10%;
       background: #f2f2f1;
       position: relative; }
-    /* line 300, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 302, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .rightBlockSkills .progress-bar {
       width: 80%;
       height: 100%;
       color: white;
       background: #00cd6b; }
-    /* line 307, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 309, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .blockSkills .rightBlockSkills .progress-bar-HTML {
+      width: 90%;
+      height: 100%;
+      color: white;
+      background: #00cd6b; }
+    /* line 316, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .blockSkills .rightBlockSkills .progress-bar-JAVA {
+      width: 70%;
+      height: 100%;
+      color: white;
+      background: #00cd6b; }
+    /* line 323, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .blockSkills .rightBlockSkills .progress-bar-CMS {
+      width: 80%;
+      height: 100%;
+      color: white;
+      background: #00cd6b; }
+    /* line 330, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .blockSkills .rightBlockSkills span {
       position: absolute;
       top: 5px;
@@ -309,7 +328,7 @@ html, body {
       text-align: center;
       width: 100%; }
 
-/* line 317, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 340, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .resume {
   max-width: 90%;
   min-width: 500px;
@@ -317,20 +336,20 @@ html, body {
   margin: 0 auto;
   background: #f2f2f1;
   padding-top: 2%; }
-  /* line 326, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 349, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .resume h4 {
     text-align: center;
     text-transform: uppercase;
     color: #4f6366;
     font-size: 1.8rem;
     margin-bottom: 5%; }
-  /* line 334, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 357, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .resume p:nth-of-type(1) {
     max-width: 90%;
     text-align: center;
     margin: 0 auto;
     color: #929292; }
-  /* line 341, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 364, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .resume p:nth-of-type(2) {
     max-width: 20%;
     text-align: center;
@@ -341,43 +360,55 @@ html, body {
     border: 0.1rem solid #00cd6b;
     color: #00cd6b; }
 
-/* line 353, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 376, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .education {
   max-width: 90%;
   min-width: 500px;
   height: 1000px;
-  margin: 0 auto;
-  border: 1px solid red; }
-  /* line 360, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  margin: 0 auto; }
+  /* line 383, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  .education h5 {
+    font-size: 1.7rem;
+    color: #616a6b;
+    margin-left: 5%;
+    text-transform: uppercase; }
+  /* line 390, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  .education h6 {
+    font-size: 1.3rem;
+    color: #616a6b;
+    margin: 15% 0 4% 5%;
+    text-transform: uppercase; }
+  /* line 397, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  .education p {
+    color: #a2a2a2;
+    margin-left: 5%;
+    font-size: 1.1rem; }
+  /* line 403, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .education .myEducation {
     max-width: 49%;
     min-width: 240px;
     height: 490px;
-    border: 1px solid green;
     display: inline-block; }
-  /* line 368, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 411, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .education .descriptionMyEducation {
     max-width: 49%;
     min-width: 240px;
     height: 490px;
-    border: 1px solid green;
     float: right; }
-  /* line 376, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 419, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .education .experience {
     max-width: 49%;
     min-width: 240px;
     height: 490px;
-    border: 1px solid orange;
     display: inline-block; }
-  /* line 384, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 427, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .education .experienceDescription {
     max-width: 49%;
     min-width: 240px;
     height: 490px;
-    border: 1px solid blue;
     float: right; }
 
-/* line 393, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 436, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .sliderWrapper {
   height: 350px;
   margin: 0 auto;
@@ -386,14 +417,14 @@ html, body {
   min-width: 500px;
   background: #f2f2f1; }
 
-/* line 403, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 446, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .slider {
   height: inherit;
   overflow: hidden;
   position: relative;
   width: 100%; }
 
-/* line 414, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 457, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .slides {
   height: inherit;
   opacity: 0;
@@ -414,7 +445,7 @@ html, body {
   transition: transform ease-in-out .5s, opacity ease-in-out .5s;
   transition: transform ease-in-out .5s, opacity ease-in-out .5s, -webkit-transform ease-in-out .5s, -moz-transform ease-in-out .5s, -o-transform ease-in-out .5s; }
 
-/* line 433, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 476, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .slide1, .slide2, .slide3 {
   background: #f2f2f1;
   color: #929292;
@@ -422,7 +453,7 @@ html, body {
   margin: 2% 2% 0;
   text-align: center; }
 
-/* line 442, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 485, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 #slide1:checked ~ .slider > .slide1,
 #slide2:checked ~ .slider > .slide2,
 #slide3:checked ~ .slider > .slide3 {
@@ -434,18 +465,18 @@ html, body {
   -ms-transform: scale(1);
   transform: scale(1); }
 
-/* line 453, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 496, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .sliderWrapper > input {
   display: none; }
 
-/* line 457, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 500, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .sliderWrapper .controls {
   left: 46%;
   bottom: 10%;
   position: absolute;
   z-index: 1; }
 
-/* line 465, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 508, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .sliderWrapper label {
   cursor: pointer;
   display: inline-block;
@@ -461,14 +492,14 @@ html, body {
   -o-transition: background ease-in-out .5s;
   transition: background ease-in-out .5s; }
 
-/* line 482, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 525, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .sliderWrapper label:hover,
 #slide1:checked ~ .controls label:nth-of-type(1),
 #slide2:checked ~ .controls label:nth-of-type(2),
 #slide3:checked ~ .controls label:nth-of-type(3) {
   background: #00cd6b; }
 
-/* line 490, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 533, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .sliderWrapper label:after {
   border: 2px solid #00cd6b;
   content: " ";
@@ -482,24 +513,24 @@ html, body {
   -moz-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 505, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 548, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .portfolio {
   max-width: 90%;
   min-width: 500px;
   height: auto;
   margin: 0 auto; }
-  /* line 511, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 554, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .portfolio p:nth-of-type(1) {
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
     color: #4f6366;
     font-weight: bold; }
-  /* line 519, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 562, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .portfolio p:nth-of-type(2) {
     color: #929292;
     text-align: center; }
-  /* line 524, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 567, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .portfolio .myWork {
     width: 100%;
     height: auto;
@@ -523,13 +554,17 @@ html, body {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center; }
-    /* line 532, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 575, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .portfolio .myWork div {
-      width: 365px;
-      height: 300px;
-      margin: 1%;
-      border: 1px solid black; }
-    /* line 539, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+      width: 385px;
+      height: 320px;
+      margin: 2%;
+      border: 1px solid black;
+      background-image: url(../files/img/portfolio.jpg);
+      -moz-background-size: 100% 100%;
+      -o-background-size: 100% 100%;
+      background-size: 100% 100%; }
+    /* line 584, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .portfolio .myWork div:nth-of-type(1) {
       background-image: url(../files/img/polik.png);
       background-repeat: no-repeat;
@@ -537,13 +572,13 @@ html, body {
       -moz-background-size: 100% 90%;
       -o-background-size: 100% 90%;
       background-size: 100% 90%; }
-    /* line 549, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 594, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .portfolio .myWork img {
       width: 365px;
       height: 300px;
       margin: 1%; }
 
-/* line 557, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+/* line 602, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
 .footer {
   max-width: 90%;
   min-width: 500px;
@@ -551,49 +586,46 @@ html, body {
   margin: 0 auto;
   background: #1b2a2c;
   color: white; }
-  /* line 566, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 611, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .footer .leftBlock {
     float: left;
     min-width: 240px;
     max-width: 50%;
-    height: 100%;
-    border: 1px solid red; }
-    /* line 573, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    height: 100%; }
+    /* line 618, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .leftBlock p:nth-of-type(1) {
       font-size: 2.5rem;
       margin-left: 2%;
       color: white;
       text-transform: uppercase; }
-    /* line 580, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 625, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .leftBlock p {
       margin-left: 2%;
       color: #929292;
       font-size: 1.2rem; }
-    /* line 587, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 632, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .leftBlock span {
       color: white;
       margin-right: 2%; }
-  /* line 593, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+  /* line 638, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
   .footer .rightBlock {
     float: right;
     min-width: 240px;
     width: 49%;
-    height: 100%;
-    border: 1px solid red; }
-    /* line 600, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    height: 100%; }
+    /* line 645, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock form {
       margin: 14% 2%; }
-      /* line 603, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+      /* line 648, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
       .footer .rightBlock form p {
         font-size: 1.5rem; }
-    /* line 608, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 653, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock input {
       width: 80%;
       height: 5%;
-      border: 1px solid green;
       color: white;
       background: #4a5455; }
-    /* line 616, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    /* line 661, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
     .footer .rightBlock button {
       margin-top: 5%;
       width: 20%;
@@ -601,3 +633,8 @@ html, body {
       -webkit-border-radius: 12px;
       -moz-border-radius: 12px;
       border-radius: 12px; }
+    /* line 667, D:/курсы/портфолио/portfolio/портфолио/src/scss/main.scss */
+    .footer .rightBlock textarea {
+      background: #4a5455;
+      color: white;
+      max-width: 250px; }
